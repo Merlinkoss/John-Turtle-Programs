@@ -1,24 +1,3 @@
--- This Version
--- 2.13 10/11/2014
--- ChangeLogs
--- 2.04 - Adding Left or Right Support
--- 2.05 - Changing Lot Code For Some Stable And Cleaner Code
--- 2.06 - Ops Forget Fuel Chcking Code after rewrtitting
--- 2.07 - Woops My Bad i wrote back() not Back()
--- 2.08 - Fixing Imputs
--- 2.09 - Forget That i change remove line of code since i use local function now
--- 2.10 - Minor error with back that it leave one block in wall
---	  Change: Torch spacing to 8 from 10
--- 2.11 - Change: Right to left and Left to Right better understand
--- 2.12 - Add Stop Code when item are gone
--- 2.13 - i made big mistake i forget to end to new stop code
--- ToDoList
--- Add Code to place torch each time it starts
--- Add Fuel Code so can know almost how much fuel you need
--- Add second fuel slot if you go allout diggin
--- Mabye add code that make turtle make new line of tunnels
-
---Local
 local distance = 0 -- How Far Did User Pick
 local onlight = 0 -- When to Place Torch
 local torch = turtle.getItemCount(1) -- How many items are in slot 1 (torch)
